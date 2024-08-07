@@ -18,3 +18,6 @@ git add .
 
 - Create a commit
 git commit -m "This is the description.
+
+- Understand the git status architecture: description and the shortened commit id #
+git log --oneline
