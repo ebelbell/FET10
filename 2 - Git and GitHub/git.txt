@@ -21,3 +21,23 @@ git commit -m "This is the description.
 
 - Understand the git status architecture: description and the shortened commit id #
 git log --oneline
+
+- Create a new branch
+    1. git branch -a      - gives you the list for that project's branches 
+    2. git branch name
+    3. git switch feature
+
+- Branching
+    - List all the available branches
+    git branch -a
+
+    - Switch to a different branch
+    git switch [branch-name]
+    git checkout [branch-name]
+
+- Merging
+    - Merge a branch
+    git merge [branch-name]
+
+    - Delete a branch
+    git branch -d [branch-name]
